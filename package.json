@@ -1,0 +1,23 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Sivakami S",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "@joeattardi/emoji-button": "^4.6.4",
+    "emoji-picker-react": "^4.13.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4",
+    "node.js": "^0.0.1-security",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
